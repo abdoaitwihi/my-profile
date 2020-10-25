@@ -1,0 +1,20 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+a {
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: .3s;
+  &:hover {
+    color: grey;
+    
+  }
+}
+.fade-in {
+  transition: .3s;
+}
+mat-toolbar{
+  box-shadow: 1px 5px 20px black , -1px 5px 20px black;
+}

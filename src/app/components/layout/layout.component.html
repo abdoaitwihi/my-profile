@@ -1,0 +1,13 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer [(mode)]="mode" [(opened)]="opened">
+    <div (click)="toggleSide('from close')" class="colse-side-bar">
+      <mat-icon>close</mat-icon>
+    </div>
+    <app-sidebar (toggleSideNavSideBar)="toggleSide($event)">
+    </app-sidebar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-navbar (toggleSideNav)="toggleSide($event)"></app-navbar>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

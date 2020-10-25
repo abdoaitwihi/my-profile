@@ -1,0 +1,14 @@
+mat-list-item {
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    @extend .active;
+    background-color: rgba(0, 0, 0, 0.171);
+    
+  }
+  cursor: pointer;
+}
+.active {
+  opacity: .5;
+}

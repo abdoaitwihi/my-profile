@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-drawer-container {
+  min-height: 100vh;
+}
+/* it looks like the mouse is working but the whole day it did not work i don't know if i should look for another one or now ,  but let's just see if it can increase your over all productivity */
